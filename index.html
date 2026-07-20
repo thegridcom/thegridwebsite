@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the grid. | Community Discord Server & Bot</title>
+    <meta name="description" content="Tritt the grid. bei! Ein Premium Community Discord Server und Bot.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner glassmorphism slide-up-anim">
+        <div class="cookie-content">
+            <i class="fas fa-cookie-bite cookie-icon"></i>
+            <div>
+                <h3>Wir verwenden Cookies</h3>
+                <p>Diese Website verwendet Cookies, um dir das beste Erlebnis auf unserer Website zu bieten. <a
+                        href="https://my.thegridcom.xyz/datenschutzerklaerung" target="_blank">Mehr erfahren</a></p>
+            </div>
+        </div>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="btn btn-primary">Akzeptieren</button>
+            <button id="decline-cookies" class="btn btn-secondary">Ablehnen</button>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar glassmorphism navbar-anim">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="assets/TheGridLogo-1000x1000.png" alt="the grid. Logo" class="logo-img">
+                the <span>grid.</span>
+            </a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#creators">Für Creator</a>
+                <a href="#features">Features</a>
+                <a href="https://my.thegridcom.xyz" target="_blank">Dashboard</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="https://discord.gg/XXs7AgWruv" target="_blank" class="btn btn-primary nav-btn">
+                    <i class="fab fa-discord"></i> Discord beitreten
+                </a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menü">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section id="home" class="hero fade-in-anim" style="animation-delay: 0.2s;">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge glassmorphism">
+                        <i class="fas fa-rocket"></i> Willkommen in der Zukunft
+                    </div>
+                    <h1 class="slogan">Willkommen bei<br>the <span>grid.</span></h1>
+                    <p class="hero-text">Das ultimative Zuhause für Streamer, Content Creator und deren Communities.
+                        Wachse gemeinsam mit uns, vernetze dich mit anderen und erlebe Premium-Support für dein Projekt.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://discord.gg/XXs7AgWruv" target="_blank" class="btn btn-primary btn-large">
+                            <i class="fab fa-discord"></i> Discord beitreten
+                        </a>
+                        <a href="#features" class="btn btn-secondary btn-large">
+                            <i class="fas fa-arrow-down"></i> Mehr erfahren
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image glassmorphism">
+                    <img src="assets/TheGridLogo-1000x1000.png" alt="the grid. Bot Visual" class="floating-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Creator Section -->
+        <section id="creators" class="creators fade-in-anim" style="animation-delay: 0.3s;">
+            <div class="container">
+                <div class="creator-highlight glassmorphism">
+                    <div class="creator-text">
+                        <h2>Dein Space für <br><span>Streams & Community</span></h2>
+                        <p>Wir legen allergrößten Wert auf unsere Creator. Egal ob du auf Twitch streamst,
+                            YouTube-Videos produzierst oder dir eine Community aufbauen willst – the grid. bietet dir
+                            die perfekte Bühne. Profitiere von automatischen Live-Benachrichtigungen, VIP-Bereichen für
+                            deine treuesten Zuschauer und exklusivem Networking mit anderen Creatorn.</p>
+                        <a href="https://discord.gg/XXs7AgWruv" target="_blank" class="btn btn-primary"
+                            style="margin-top: 1rem;">
+                            <i class="fab fa-discord"></i> Ticket auf Discord eröffnen
+                        </a>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.75rem;">
+                            Eröffne einfach ein Ticket auf unserem Discord, um mit uns über eine Partnerschaft zu sprechen!
+                        </p>
+                    </div>
+                    <div class="creator-stats">
+                        <div class="stat-box glassmorphism">
+                            <i class="fas fa-bell stat-icon"></i>
+                            <h3>Live-Alerts</h3>
+                            <p>Deine Community erfährt sofort, wenn du live gehst.</p>
+                        </div>
+                        <div class="stat-box glassmorphism">
+                            <i class="fas fa-handshake stat-icon"></i>
+                            <h3>Networking</h3>
+                            <p>Finde Collab-Partner auf Augenhöhe in unserer Creator-Lounge.</p>
+                        </div>
+                        <div class="stat-box glassmorphism">
+                            <i class="fas fa-gamepad stat-icon"></i>
+                            <h3>Community Events</h3>
+                            <p>Exklusive Bereiche, um mit deiner Community zu spielen und eigene Events zu veranstalten.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section id="features" class="features fade-in-anim" style="animation-delay: 0.5s;">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Warum the <span>grid.</span>?</h2>
+                    <p>Entdecke die Features, die uns einzigartig machen.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card glassmorphism">
+                        <div class="feature-icon"><i class="fas fa-shield-halved"></i></div>
+                        <h3>Sichere Community</h3>
+                        <p>Ein ausgeklügeltes Moderationssystem sorgt für eine freundliche und sichere Umgebung für alle
+                            Mitglieder.</p>
+                    </div>
+                    <div class="feature-card glassmorphism">
+                        <div class="feature-icon"><i class="fas fa-robot"></i></div>
+                        <h3>Eigener Bot</h3>
+                        <p>Unser exklusiver the grid. Bot bietet Level-Systeme, Musik, Moderation und vieles mehr,
+                            direkt auf dem Server.</p>
+                    </div>
+                    <div class="feature-card glassmorphism">
+                        <div class="feature-icon"><i class="fas fa-gem"></i></div>
+                        <h3>Premium Design</h3>
+                        <p>Wir legen Wert auf Ästhetik. Unser Server und unsere Webpräsenz sind bis ins kleinste Detail
+                            durchdacht.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer glassmorphism fade-in-anim" style="animation-delay: 0.6s;">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="assets/TheGridLogo-1000x1000.png" alt="the grid. Logo" class="logo-img">
+                    the <span>grid.</span>
+                </a>
+                <p>Eine Premium Community für Gamer, Entwickler und Kreative.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Rechtliches</h4>
+                <ul>
+                    <li><a href="https://my.thegridcom.xyz/impressum" target="_blank">Impressum</a></li>
+                    <li><a href="https://my.thegridcom.xyz/datenschutzerklaerung"
+                            target="_blank">Datenschutzerklärung</a></li>
+                    <li><a href="https://my.thegridcom.xyz/tos" target="_blank">Terms of Service (TOS)</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Folge uns</h4>
+                <div class="social-icons">
+                    <a href="https://discord.gg/thegridcom" target="_blank" class="social-icon" title="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="https://twitch.tv/thegridcom" target="_blank" class="social-icon" title="Twitch">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://tiktok.com/@thegridcom" target="_blank" class="social-icon" title="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://ko-fi.com/thegridcom" target="_blank" class="social-icon" title="Ko-fi Support">
+                        <i class="fas fa-mug-hot"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 the grid. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Cookie Banner Logic
+        document.addEventListener('DOMContentLoaded', () => {
+            const cookieBanner = document.getElementById('cookie-banner');
+            const acceptBtn = document.getElementById('accept-cookies');
+            const declineBtn = document.getElementById('decline-cookies');
+
+            // Check if cookie is already accepted
+            if (!localStorage.getItem('cookiesAccepted')) {
+                cookieBanner.style.display = 'flex';
+                // Trigger animation after slight delay
+                setTimeout(() => {
+                    cookieBanner.classList.add('show');
+                }, 100);
+            }
+
+            const hideBanner = () => {
+                cookieBanner.classList.remove('show');
+                setTimeout(() => {
+                    cookieBanner.style.display = 'none';
+                }, 300); // Wait for transition
+            };
+
+            acceptBtn.addEventListener('click', () => {
+                localStorage.setItem('cookiesAccepted', 'true');
+                hideBanner();
+            });
+
+            declineBtn.addEventListener('click', () => {
+                localStorage.setItem('cookiesAccepted', 'false');
+                hideBanner();
+            });
+
+            // Intersection Observer for scroll animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: "0px 0px -50px 0px"
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.fade-in-anim').forEach(el => {
+                observer.observe(el);
+            });
+
+            // Mobile Menu Toggle
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const navLinks = document.getElementById('nav-links');
+
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                if (navLinks.classList.contains('active')) {
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-times"></i>';
+                } else {
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                }
+            });
+
+            // Close mobile menu when clicking a link
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
